@@ -5,7 +5,10 @@ A gym companion website which is work in-progress. Stay tuned for our first rele
 Cameron Marsh
 Uzair Salema
 
-# Planned Features
-- Home page
-- Exercises page
-- Profile creation form
+#Updates to website 
+-Wesite first page
+-gym first page 
+Hello
+
+
+
