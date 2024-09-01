@@ -4,3 +4,11 @@ A gym companion website which is work in-progress. Stay tuned for our first rele
 ## Dev Team
 Cameron Marsh
 Uzair Salema
+
+#Updates to website 
+-Wesite first page
+-gym first page 
+Hello
+
+
+
