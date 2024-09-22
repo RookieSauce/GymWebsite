@@ -1,0 +1,40 @@
+.navigation-bar {
+    display: block;
+    background-color: rgb(53, 59, 177);
+    width: 100%;
+    height: 10%;
+    max-height: 200px;
+    margin: 0;
+    outline: 1px solid black;
+    overflow: hidden;
+}
+
+body {
+    background-color: lightgray;
+}
+
+.navigation-bar a {
+    background-color: inherit;
+    color: white;
+    float: left;
+    font-size: 17px;
+    text-decoration: none;
+    text-align: center;
+    padding: 5px;
+    border: 1px solid black;
+}
+
+.navigation-bar a:hover {
+    color: lightgray;
+    text-decoration: underline;
+}
+
+#sitelogo {
+    height: 16px;
+    max-height: inherit;
+    max-width: inherit;
+}
+
+.large-title {
+    text-align: center;
+}
