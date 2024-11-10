@@ -5,7 +5,6 @@ import './App.css';
 import ContactUs from "./pages/ContactUs";
 
 function App() {
-  // This router does not work yet...
   return (
     <div>
       <Router>
@@ -16,7 +15,6 @@ function App() {
          <Route path="*" element={<NoPage />} />           {/* Error 404 page */}
         </Routes>
       </Router>
-    
     </div>
   );
 }
