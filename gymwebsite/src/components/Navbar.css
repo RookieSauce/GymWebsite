@@ -1,0 +1,40 @@
+.site-header {
+    background-color: lightgrey;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.site-header h1 {
+    padding-left: 10px;
+    margin: 0;
+}
+
+.navbar {
+    width: 100%;
+    background-color: rgb(67, 67, 176);
+}
+
+.navbar ul {
+    list-style-type: none;
+    overflow:hidden;
+    padding: 0px;
+    margin: 0px;
+}
+
+.navbar li:hover {
+    background-color: rgb(31, 19, 101);
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 15px 30px;
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    justify-content: space-around;
+}
+
+.navbar li {
+    float:left;
+}
