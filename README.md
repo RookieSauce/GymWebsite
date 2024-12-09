@@ -1,14 +1,15 @@
 # GymWebsite
-A gym companion website which is work in-progress. Stay tuned for our first release!
+A work-in-progress gym companion website. Stay tuned for our first release!
 
 ## Dev Team
 Cameron Marsh
 Uzair Salema
 
 #Updates to website 
--Wesite first page
--gym first page 
-Hello
+- Converted to React
+- Homepage
+- Navigation bar
+- Error 404 Page
 
 
 
