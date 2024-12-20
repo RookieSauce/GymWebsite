@@ -5,6 +5,7 @@ function Homepage() {
         <div>
             <Navbar />
             <h2>Welcome to U&C Gym Companion!</h2>
+            <p>Lorem ipsum dolor san amet</p>
         </div>
     )
 }

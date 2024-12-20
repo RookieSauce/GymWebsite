@@ -1,12 +1,22 @@
 .site-header {
-    background-color: lightgrey;
+    background-color: rgb(67, 67, 176);
     padding-top: 1%;
     padding-bottom: 1%;
+    border-bottom: 3px solid white;
+    display: flex;
+    align-items: left;
 }
 
 .site-header h1 {
     padding-left: 10px;
+    color: white;
     margin: 0;
+}
+
+.logo {
+    height: 50px;
+    width: 50px;
+    margin-right: 10px;
 }
 
 .navbar {
