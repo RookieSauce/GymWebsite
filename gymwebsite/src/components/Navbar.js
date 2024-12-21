@@ -1,11 +1,12 @@
 import './Navbar.css'
+import logo from './UClogo.jpeg'
 
 function Navbar() {
      return (
     <div>
         <div class="site-header">
             <a href="/home">
-                <img src="../../public/UClogo.jpeg" alt="U&C Logo" title="U&C Logo" class="logo" />
+                <img src={logo} alt="U&C Logo" title="U&C Logo" class="logo" />
             </a>
             <h1> U&C Gym Companion </h1>
         </div>

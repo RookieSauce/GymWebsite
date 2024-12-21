@@ -4,18 +4,29 @@
     padding-bottom: 1%;
     border-bottom: 3px solid white;
     display: flex;
+    flex-direction: row;
     align-items: left;
 }
 
+.site-header * {
+    vertical-align: middle;
+}
+
+img {
+    border-radius: 45%;
+}
+
 .site-header h1 {
-    padding-left: 10px;
+    padding: 10px;
+    font-size: 40px;
     color: white;
     margin: 0;
 }
 
 .logo {
-    height: 50px;
-    width: 50px;
+    margin-left: 10px;
+    height: 70px;
+    width: 70px;
     margin-right: 10px;
 }
 
