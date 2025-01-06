@@ -4,7 +4,7 @@ function ContactUs() {
     return(
         <div>
             <Navbar />
-            <h2>Contact us here!</h2>
+            <h1 class="pageheader">Contact us here!</h1>
         </div>
     )
 }
