@@ -1,0 +1,26 @@
+h2 {
+    font-family: sans-serif;
+    font-size: 2em;
+    color: darkslateblue;
+    padding: 0;
+}
+
+.pageheader {
+    font-family: sans-serif;
+    font-size: 2.5em;
+    color: darkslateblue;
+    margin: 2% 2%;
+    padding: 0;
+}
+
+p {
+    color: rgb(23, 39, 39);
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    font-size: 1.1em;
+    line-height: 1.2em;
+}
+
+h2, p {
+    margin: 2% 2%;
+}
