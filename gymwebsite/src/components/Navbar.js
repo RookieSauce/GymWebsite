@@ -3,7 +3,7 @@ import logo from './UClogo.jpeg'
 
 function Navbar() {
      return (
-    <div>
+    <div class="navbar">
         <div class="site-header">
             <a href="/home">
                 <img src={logo} alt="U&C Logo" title="U&C Logo" class="logo" />
@@ -11,7 +11,7 @@ function Navbar() {
             <h1> U&C Gym Companion </h1>
         </div>
 
-        <nav className="navbar"> 
+        <nav className="nav"> 
             <ul className="navbar-list"> 
                 <li><a href="/home">Home</a></li>
                 <li><a href="../plan">Plan Your Workout</a></li> 

@@ -1,23 +1,27 @@
 .site-header {
     background-color: rgb(67, 67, 176);
-    padding-top: 1%;
-    padding-bottom: 1%;
+    padding: 1% 0%;
+    height: 65px;
     border-bottom: 3px solid white;
     display: flex;
     flex-direction: row;
     align-items: left;
 }
 
-.site-header * {
-    vertical-align: middle;
+
+.navbar {
+    width: 100%;
+    top: 0;
+    z-index: 1000;
 }
 
 img {
     border-radius: 45%;
 }
 
+
 .site-header h1 {
-    padding: 10px;
+    padding: 10px 10px;
     font-size: 40px;
     color: white;
     margin: 0;
@@ -30,23 +34,23 @@ img {
     margin-right: 10px;
 }
 
-.navbar {
+.nav {
     width: 100%;
     background-color: rgb(67, 67, 176);
 }
 
-.navbar ul {
+.nav ul {
     list-style-type: none;
     overflow:hidden;
     padding: 0px;
     margin: 0px;
 }
 
-.navbar li:hover {
+.nav li:hover {
     background-color: rgb(31, 19, 101);
 }
 
-.navbar a {
+.nav a {
     color: white;
     text-decoration: none;
     padding: 15px 30px;
@@ -56,6 +60,6 @@ img {
     justify-content: space-around;
 }
 
-.navbar li {
+.nav li {
     float:left;
 }
