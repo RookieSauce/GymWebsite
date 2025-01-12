@@ -15,6 +15,12 @@
     z-index: 1000;
 }
 
+.navbar-list {
+    display: flex;
+    align-items: left;
+    flex-direction: row;
+}
+
 img {
     border-radius: 45%;
 }
@@ -50,6 +56,12 @@ img {
     background-color: rgb(31, 19, 101);
 }
 
+.workout-dropdown-area {
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    justify-content: space-around;
+}
 .nav a {
     color: white;
     text-decoration: none;
@@ -60,6 +72,39 @@ img {
     justify-content: space-around;
 }
 
-.nav li {
-    float:left;
+.workout-dropdown-content {
+    border: black 1px solid;
+    border-top: none;
+    display: none;
+    position: absolute;
+    background-color: rgb(67, 67, 176);
+    width: inherit;
+    z-index: 1;
+}
+
+.workout-dropdown-content a:hover {
+    background-color: rgb(31, 19, 101);
+}
+
+.workout-dropdown-button {
+    background-color: rgb(67, 67, 176);
+    color: white;
+    margin: 0;
+    text-align: center;
+
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+}
+
+.workout-dropdown-button:hover {
+    background-color: rgb(31, 19, 101);
+}
+
+.workout-dropdown-button:hover + .workout-dropdown-content {
+    display: block;
+}
+
+.workout-dropdown-content:hover {
+    display: block;
 }

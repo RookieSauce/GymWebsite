@@ -14,7 +14,14 @@ function Navbar() {
         <nav className="nav"> 
             <ul className="navbar-list"> 
                 <li><a href="/home">Home</a></li>
-                <li><a href="../plan">Plan Your Workout</a></li> 
+                <li class="workout-dropdown-area">
+                    <a href="/home" class="workout-dropdown-button">Plan Your Workout</a>
+                        <div class="workout-dropdown-content"> 
+                            <a href="../workout">Log a Workout</a>
+                            <a href="../workout">My Exercise History</a>
+                            <a href="../workout">Exercise Preferences</a>
+                        </div>
+                </li>
                 <li><a href="../contact">Contact Us</a></li> 
             </ul> 
         </nav>
